@@ -1,3 +1,8 @@
+// conversion Datatype kuch nhi hai bus hum yaha number ko string me convert kar rhe hai 
+// string number me convert hoti hai ya nhi check karke dekh rhe hai 
+// number or string se kya hum boolean me convert kar sakte hai ya nhi 
+// 
+
 console.log("ANkit Balpande")
 
 let score = "Ankit"
@@ -25,5 +30,7 @@ let stringNumber = String(someNumber)
 
 console.log(stringNumber) // this value is showing is number type but it is string 
 console.log(typeof stringNumber) // see it is a string 
+
+
 
 // --------------------------Operations----------------------------
