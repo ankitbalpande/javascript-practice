@@ -33,4 +33,38 @@ function userLogin(username){
     return `${username} just logged in`
 }
 
-console.log(userLogin())
+// console.log(userLogin())
+
+
+function cartsCollection(...num){
+    return num
+}
+
+//yha maine rest operatoe ka use kiya hai jisse me kitne bhi arguments pass kr skta hu
+
+// console.log(cartsCollection(500, 600, 700, 300, 1200))
+
+
+const user = {
+    username: 'Ankit',
+    price: 5000
+}
+
+function userdata(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`)
+}
+userdata(user)
+//yha maine object ko function me pass kiya hai
+// or ek oproch hai ise use karne da direct obect pass karna  ya fir aeray
+userdata({
+    username: 'Sumit',
+    price: 7000
+})
+
+const array = [100, 200, 300, 400, 500]
+
+function arrayData(anyArray){
+    return anyArray[3]
+}
+//yha maine array ko function me pass kiya hai
+console.log(arrayData(array))
