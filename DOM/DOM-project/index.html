@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Give me color</h1>
+      <div class="p">
+        <p class="intro">
+        This feature dynamically creates color elements based on user input.
+        Each generated color box is clickable, and when clicked, it changes the
+        background color of the entire webpage accordingly.
+      </p>
+      </div>
+      <div class="flex">
+        <input type="text" id="input" placeholder="Enter your Favorite Color" />
+        <button id="addBox">add box</button>
+      </div>
+      <div class="flex colorBox">
+        <span class="button" id="yellow"></span>
+        <span class="button" id="red"></span>
+        <span class="button" id="green"></span>
+        <span class="button" id="blue"></span>
+      </div>
+    </main>
+  </body>
+</html>
