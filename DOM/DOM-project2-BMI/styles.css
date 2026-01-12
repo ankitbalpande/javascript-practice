@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  min-width: 300px;
+  width: 310px;
+  height: 300px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+button,
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+}

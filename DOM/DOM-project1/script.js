@@ -28,7 +28,7 @@ function clickColor() {
   const buttons = document.querySelectorAll('.button');
   buttons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
-      switch (e.target.id) {
+      switch (e.target.id) { //yah hum if else ka bhi use kar sakte hai 
         case e.target.id:
           document.body.style.backgroundColor = e.target.id;
           break;
